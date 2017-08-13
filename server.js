@@ -60,6 +60,7 @@ function createTemplate(data) {
                 <a href="/article-two">Article two</a> |
                 <a href="/article-three">Article three</a>
             </nav>
+            <hr/>
             <h3>${heading}</h3>
                 <div>
                     ${date}
