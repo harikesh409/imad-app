@@ -16,7 +16,7 @@ button.onclick=function() {
 };
 
 var nameInput = document.getElementById("name");
-var name = nameInput.value;
+var name1 = nameInput.value;
 var submit = document.getElementById("submit_btn");
 submit.onclick = function() {
   
@@ -35,7 +35,7 @@ submit.onclick = function() {
             }        
         } 
     };
-    request.open('GET','http://pharikesh409.imad.hasura-app.io/submit-name?'+name,true);
+    request.open('GET','http://pharikesh409.imad.hasura-app.io/submit-name?'+name1,true);
     request.send(null);
  
 };
